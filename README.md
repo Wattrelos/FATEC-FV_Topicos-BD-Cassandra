@@ -1,3 +1,11 @@
+## 👨‍🏫 Metadados e Informações Acadêmicas
+- **Instituição:** Faculdade de Tecnologia de Ferraz de Vasconcelos (FATEC-FV)
+- **Curso:** Análise e Desenvolvimento de Sistemas (ADS)
+- **Disciplina:** Tópicos em Banco de Dados e Big Data
+- **Professora Orientadora:** Profa. Francisco Abreu
+- **Pesquisador / Desenvolvedor:** Josias Sobrinho
+- **Projeto Base:** Atividade prática com Apache Cassandra
+
 # 🚀 Atividade Prática: Introdução ao Apache Cassandra com Docker
 
 > [!IMPORTANT]
