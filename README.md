@@ -61,7 +61,7 @@ Execute no terminal:
 docker compose up -d
 ```
 
-> [!TIP]
+> 🚨 [!TIP] 
 > **Aguarde a inicialização da JVM (30 a 60 segundos):**
 > O Cassandra roda sobre a Máquina Virtual Java (JVM) e demora alguns segundos para inicializar os serviços internos (*Gossip*, *StorageService*, *Native Transport Daemon*).
 > Se você tentar conectar imediatamente, poderá receber a mensagem: `Unable to connect to any servers`.
@@ -71,6 +71,7 @@ docker compose up -d
 O `nodetool` é a principal ferramenta administrativa do Cassandra para monitorar os nós e a integridade do cluster. Verifique se o nó está ativo e saudável:
 
 ```bash
+# 🚨 Aguarde o Cassandra inicializar
 docker exec -it cassandra nodetool status
 ```
 
